@@ -4,5 +4,25 @@
   box-sizing: border-box;
 }
 
-*body {
+.header {
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+}
+
+.header__navigation {
+  display: flex;
+  gap: 58px;
+}
+
+.header__navigation a {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #07043b;
+  text-decoration: none;
 }
