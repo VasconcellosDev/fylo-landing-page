@@ -69,8 +69,8 @@
   line-height: 19px;
 
   color: #c2c2c2;
-  height: 45px;
-  width: 320px;
+  height: 8px;
+  max-width: 320px;
   box-sizing: border-box;
   border: 0.625px solid #07043b;
   box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
@@ -102,7 +102,7 @@
 .testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 233px;
+  margin-top: 164px;
   background: #f8f8fe;
   padding: 0 80px;
 }
@@ -202,4 +202,75 @@
 
 .testimonials__quote__author span {
   margin-top: 16px;
+}
+
+.subscription {
+  background: #575988;
+  width: 100%;
+  padding: 85px 80px;
+  margin-top: 107px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 180px;
+}
+
+.subscription__form__btn {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: white;
+  background: #6c9bff;
+  box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+  border-radius: 3.125px;
+  border: none;
+  padding: 16px 22px;
+  margin-top: 16px;
+  width: fit-content;
+}
+
+.subscription__form__input {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+  border-radius: 3.125px;
+  max-width: 480px;
+}
+
+.subscription__content__title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+
+  color: #ffffff;
+}
+.subscription__content__description {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  letter-spacing: 0.5px;
+  margin-top: 17px;
+
+  color: #ffffff;
+}
+
+.subscription small {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+
+  color: #ffffff;
+}
+
+.subscription__form {
+  max-width: 480px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
 }
