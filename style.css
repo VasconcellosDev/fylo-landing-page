@@ -322,4 +322,41 @@
     width: 100%;
     margin-top: 16px;
   }
+
+  .testimonials {
+    display: flex;
+    flex-direction: column-reverse;
+    /* margin: 98px 20px; */
+    padding: 0 24px;
+  }
+
+  .testimonials__container {
+    text-align: center;
+    padding-bottom: 16px;
+  }
+
+  .testimonials__title {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 87px;
+  }
+
+  .testimonials__description {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .testimonials__description.without-big-margin {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .testimonials__link {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 36px;
+  }
+  .testimonials__quote {
+    margin: 40px auto 0;
+  }
 }
