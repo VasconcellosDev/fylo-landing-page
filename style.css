@@ -221,7 +221,6 @@
   background: #575988;
   width: 100%;
   padding: 85px 80px;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 180px;
@@ -256,6 +255,8 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 48px;
+  font-family: "Raleway";
+  font-weight: 700;
 
   color: #ffffff;
 }
@@ -393,7 +394,6 @@
   .testimonials {
     display: flex;
     flex-direction: column-reverse;
-    /* margin: 98px 20px; */
     padding: 0 24px;
   }
 
@@ -425,5 +425,45 @@
   }
   .testimonials__quote {
     margin: 40px auto 0;
+  }
+
+  .subscription {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 52px 24px;
+    gap: 24px;
+  }
+
+  .subscription__content {
+    text-align: center;
+  }
+
+  .subscription__content__title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .subscription__content__description {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .subscription__form__input {
+    background: #ffffff;
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+    border-radius: 1.47059px;
+    width: 100%;
+  }
+  .subscription__form__btn {
+    background: #2f65f8;
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+    border-radius: 1.47059px;
+    max-width: unset;
+    width: 100%;
+  }
+
+  .subscription__form {
+    width: 100%;
   }
 }
