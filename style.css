@@ -485,4 +485,22 @@
     font-size: 12px;
     line-height: 14px;
   }
+
+  .footer {
+    padding: 65px 40px;
+  }
+
+  .footer__logo {
+    width: 105px;
+    height: 30px;
+  }
+
+  .footer__container {
+    gap: 32px;
+    flex-direction: column;
+  }
+
+  .footer__container__socials {
+    justify-content: center;
+  }
 }
